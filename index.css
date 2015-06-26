@@ -1,0 +1,39 @@
+#splash{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+#img{
+    width: 150px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img img{
+    width:100%;
+    height: auto;
+}
+#wheel{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wheel img{
+    width: 100%;
+    height: auto;
+}
+#navbar nav.navbar.navbar-default{
+    height:50px;
+}
+#navbarCollapse {
+    height: auto;
+}
+ul.nav:nth-child(2) > li:nth-child(1){
+    height: auto;
+}
+body {
+    background-image: url('background.jpg');
+}
