@@ -1,11 +1,6 @@
 contract Play{
-
-
-  //  event table(address indexed owner, uint funds, uint odds, uint fee);
     address public owner;
     address player;
-    //uint tableOdds;
-  //  uint tableFee;
     uint bet;
     uint randnum;
     bytes32 rand;
@@ -13,24 +8,12 @@ contract Play{
     uint tableOdds;
     uint tableFee;
 
-  //Struct table{
-    //address owner;
-  //}
   function Play(){
     owner = tx.origin;
     cons = 1000000000;
     tableOdds = 500000000;
     tableFee = 10000000;
   }
-
-//  function initiate(uint odds, uint fee){
-//    table(tx.origin, msg.value, odds, fee);
-//    table.watch
-//    if (msg.sender == owner){
-//      uint tableOdds = odds;
-//      uint tableFee = fee;
-//    }
-//  }
 
   function roll(){
     player = msg.sender;
