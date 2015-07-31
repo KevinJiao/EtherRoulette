@@ -13,7 +13,7 @@ var Splash = React.createClass({
     render: function(){
         return(
             <div>
-            <h1> Welcome to EtherDice!</h1>
+            <h1> Welcome to EtherRoulette!</h1>
             <div id='img'><img src='ethereum.png' ></img></div>
             <button type="button" className="btn btn-primary" onClick={this.login}>Play Now!</button>
             </div>
@@ -86,7 +86,7 @@ render: function(){
     return(
         <nav role="navigation" className="navbar navbar-default">
             <div className="navbar-header">
-                <div className="navbar-brand">EtherDice</div>
+                <div className="navbar-brand">EtherRoulette</div>
             </div>
             <div id="navbarCollapse" className="collapse navbar-collapse">
                 <ul className="nav navbar-nav">
